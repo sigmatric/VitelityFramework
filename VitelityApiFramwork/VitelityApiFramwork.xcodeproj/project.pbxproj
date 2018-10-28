@@ -60,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				CF970B4D21860C8100F84E37 /* VitelityApiFramwork.framework */,
-				CF970B5621860C8100F84E37 /* VitelityApiFramworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,24 +106,7 @@
 			productReference = CF970B4D21860C8100F84E37 /* VitelityApiFramwork.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CF970B5521860C8100F84E37 /* VitelityApiFramworkTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CF970B6421860C8100F84E37 /* Build configuration list for PBXNativeTarget "VitelityApiFramworkTests" */;
-			buildPhases = (
-				CF970B5221860C8100F84E37 /* Sources */,
-				CF970B5321860C8100F84E37 /* Frameworks */,
-				CF970B5421860C8100F84E37 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CF970B5921860C8100F84E37 /* PBXTargetDependency */,
-			);
-			name = VitelityApiFramworkTests;
-			productName = VitelityApiFramworkTests;
-			productReference = CF970B5621860C8100F84E37 /* VitelityApiFramworkTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
+		
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -159,7 +141,6 @@
 			projectRoot = "";
 			targets = (
 				CF970B4C21860C8100F84E37 /* VitelityApiFramwork */,
-				CF970B5521860C8100F84E37 /* VitelityApiFramworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -366,21 +347,7 @@
 			};
 			name = Release;
 		};
-		CF970B6521860C8100F84E37 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZT84VT365T;
-				INFOPLIST_FILE = VitelityApiFramworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sigmatric.VitelityApiFramworkTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
+
 		CF970B6621860C8100F84E37 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
