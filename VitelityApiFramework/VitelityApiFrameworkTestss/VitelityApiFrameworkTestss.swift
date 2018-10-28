@@ -1,15 +1,14 @@
 //
-//  VitelityApiFrameworkTests.swift
-//  VitelityApiFrameworkTests
+//  VitelityApiFrameworkTestss.swift
+//  VitelityApiFrameworkTestss
 //
 //  Created by Jorge Enrique Dominguez on 10/28/18.
 //  Copyright © 2018 sigmatric. All rights reserved.
 //
 
 import XCTest
-@testable import VitelityApiFramework
 
-class VitelityApiFrameworkTests: XCTestCase {
+class VitelityApiFrameworkTestss: XCTestCase {
     
     override func setUp() {
         super.setUp()

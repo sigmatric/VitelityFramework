@@ -9,11 +9,19 @@
 /* Begin PBXBuildFile section */
 		CF970B7D2186220600F84E37 /* VitelityApiFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF970B732186220500F84E37 /* VitelityApiFramework.framework */; };
 		CF970B842186220600F84E37 /* VitelityApiFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = CF970B762186220500F84E37 /* VitelityApiFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF970B8E2186221800F84E37 /* VitelityApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970B8D2186221800F84E37 /* VitelityApiClient.swift */; };
+		CF970B8E2186221800F84E37 /* VitelityApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970B8D2186221800F84E37 /* VitelityApiClient.swift */; };	
+		CF970B9A2186276400F84E37 /* VitelityApiFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF970B732186220500F84E37 /* VitelityApiFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		CF970B7E2186220600F84E37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF970B6A2186220500F84E37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF970B722186220500F84E37;
+			remoteInfo = VitelityApiFramework;
+		};
+		CF970B9B2186276400F84E37 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CF970B6A2186220500F84E37 /* Project object */;
 			proxyType = 1;
@@ -26,10 +34,8 @@
 		CF970B732186220500F84E37 /* VitelityApiFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VitelityApiFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF970B762186220500F84E37 /* VitelityApiFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VitelityApiFramework.h; sourceTree = "<group>"; };
 		CF970B772186220500F84E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF970B7C2186220600F84E37 /* VitelityApiFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VitelityApiFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF970B812186220600F84E37 /* VitelityApiFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitelityApiFrameworkTests.swift; sourceTree = "<group>"; };
-		CF970B832186220600F84E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF970B8D2186221800F84E37 /* VitelityApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitelityApiClient.swift; sourceTree = "<group>"; };
+		CF970B992186276400F84E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,14 +54,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CF970B922186276300F84E37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF970B9A2186276400F84E37 /* VitelityApiFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		CF970B692186220500F84E37 = {
 			isa = PBXGroup;
 			children = (
-				CF970B752186220500F84E37 /* VitelityApiFramework */,
-				CF970B802186220600F84E37 /* VitelityApiFrameworkTests */,
+				CF970B752186220500F84E37 /* VitelityApiFramework */,			
 				CF970B742186220500F84E37 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,8 +76,7 @@
 		CF970B742186220500F84E37 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CF970B732186220500F84E37 /* VitelityApiFramework.framework */,
-				CF970B7C2186220600F84E37 /* VitelityApiFrameworkTests.xctest */,
+				CF970B732186220500F84E37 /* VitelityApiFramework.framework */,				
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,15 +91,7 @@
 			path = VitelityApiFramework;
 			sourceTree = "<group>";
 		};
-		CF970B802186220600F84E37 /* VitelityApiFrameworkTests */ = {
-			isa = PBXGroup;
-			children = (
-				CF970B812186220600F84E37 /* VitelityApiFrameworkTests.swift */,
-				CF970B832186220600F84E37 /* Info.plist */,
-			);
-			path = VitelityApiFrameworkTests;
-			sourceTree = "<group>";
-		};
+		
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -120,24 +124,7 @@
 			productReference = CF970B732186220500F84E37 /* VitelityApiFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CF970B7B2186220600F84E37 /* VitelityApiFrameworkTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CF970B8A2186220600F84E37 /* Build configuration list for PBXNativeTarget "VitelityApiFrameworkTests" */;
-			buildPhases = (
-				CF970B782186220600F84E37 /* Sources */,
-				CF970B792186220600F84E37 /* Frameworks */,
-				CF970B7A2186220600F84E37 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CF970B7F2186220600F84E37 /* PBXTargetDependency */,
-			);
-			name = VitelityApiFrameworkTests;
-			productName = VitelityApiFrameworkTests;
-			productReference = CF970B7C2186220600F84E37 /* VitelityApiFrameworkTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
+		
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -157,6 +144,10 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
+					CF970B942186276300F84E37 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = CF970B6D2186220500F84E37 /* Build configuration list for PBXProject "VitelityApiFramework" */;
@@ -171,8 +162,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CF970B722186220500F84E37 /* VitelityApiFramework */,
-				CF970B7B2186220600F84E37 /* VitelityApiFrameworkTests */,
+				CF970B722186220500F84E37 /* VitelityApiFramework */,				
 			);
 		};
 /* End PBXProject section */
@@ -184,8 +174,8 @@
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF970B7A2186220600F84E37 /* Resources */ = {
+		};		
+		CF970B932186276300F84E37 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -210,6 +200,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -217,6 +208,11 @@
 			isa = PBXTargetDependency;
 			target = CF970B722186220500F84E37 /* VitelityApiFramework */;
 			targetProxy = CF970B7E2186220600F84E37 /* PBXContainerItemProxy */;
+		};
+		CF970B9C2186276400F84E37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF970B722186220500F84E37 /* VitelityApiFramework */;
+			targetProxy = CF970B9B2186276400F84E37 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -379,36 +375,10 @@
 			};
 			name = Release;
 		};
-		CF970B8B2186220600F84E37 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZT84VT365T;
-				INFOPLIST_FILE = VitelityApiFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sigmatric.VitelityApiFrameworkTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		CF970B8C2186220600F84E37 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZT84VT365T;
-				INFOPLIST_FILE = VitelityApiFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sigmatric.VitelityApiFrameworkTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
+		
+		
+		
+		
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -429,16 +399,8 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
-		};
-		CF970B8A2186220600F84E37 /* Build configuration list for PBXNativeTarget "VitelityApiFrameworkTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CF970B8B2186220600F84E37 /* Debug */,
-				CF970B8C2186220600F84E37 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
+		};		
+		
 /* End XCConfigurationList section */
 	};
 	rootObject = CF970B6A2186220500F84E37 /* Project object */;
