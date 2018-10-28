@@ -7,9 +7,4 @@ target 'VitelityApiFramework' do
 
   # Pods for VitelityApiFramework
 
-  #target 'VitelityApiFrameworkTests' do
-   # inherit! :search_paths
-    # Pods for testing
-  #end
-
 end

@@ -8,7 +8,6 @@
 
 import Foundation
 
-
 public class VitelityApiClient {
     
     public static func getUUID() -> String {
