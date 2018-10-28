@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CF970B5721860C8100F84E37 /* VitelityApiFramwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF970B4D21860C8100F84E37 /* VitelityApiFramwork.framework */; };
-		CF970B5C21860C8100F84E37 /* VitelityApiFramworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970B5B21860C8100F84E37 /* VitelityApiFramworkTests.swift */; };
 		CF970B5E21860C8100F84E37 /* VitelityApiFramwork.h in Headers */ = {isa = PBXBuildFile; fileRef = CF970B5021860C8100F84E37 /* VitelityApiFramwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF970B6821860D0900F84E37 /* VitelityApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970B6721860D0900F84E37 /* VitelityApiClient.swift */; };
 /* End PBXBuildFile section */
@@ -28,8 +27,6 @@
 		CF970B5021860C8100F84E37 /* VitelityApiFramwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VitelityApiFramwork.h; sourceTree = "<group>"; };
 		CF970B5121860C8100F84E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF970B5621860C8100F84E37 /* VitelityApiFramworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VitelityApiFramworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF970B5B21860C8100F84E37 /* VitelityApiFramworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitelityApiFramworkTests.swift; sourceTree = "<group>"; };
-		CF970B5D21860C8100F84E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF970B6721860D0900F84E37 /* VitelityApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitelityApiClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				CF970B4F21860C8100F84E37 /* VitelityApiFramwork */,
-				CF970B5A21860C8100F84E37 /* VitelityApiFramworkTests */,
 				CF970B4E21860C8100F84E37 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,15 +74,6 @@
 				CF970B6721860D0900F84E37 /* VitelityApiClient.swift */,
 			);
 			path = VitelityApiFramwork;
-			sourceTree = "<group>";
-		};
-		CF970B5A21860C8100F84E37 /* VitelityApiFramworkTests */ = {
-			isa = PBXGroup;
-			children = (
-				CF970B5B21860C8100F84E37 /* VitelityApiFramworkTests.swift */,
-				CF970B5D21860C8100F84E37 /* Info.plist */,
-			);
-			path = VitelityApiFramworkTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +195,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF970B5C21860C8100F84E37 /* VitelityApiFramworkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
