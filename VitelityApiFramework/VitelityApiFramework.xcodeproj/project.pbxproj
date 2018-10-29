@@ -9,39 +9,41 @@
 /* Begin PBXBuildFile section */
 		0BD39AEE850D11CE91C2600A /* Pods_VitelityApiFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9730467F47CFE78174839F1A /* Pods_VitelityApiFramework.framework */; };
 		CF970BAF2186298D00F84E37 /* VitelityApiFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = CF970BAD2186298D00F84E37 /* VitelityApiFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF970BC42187420700F84E37 /* VitelityAPIClientConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BB92187420400F84E37 /* VitelityAPIClientConfig.swift */; };
-		CF970BC52187420700F84E37 /* TimeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BBA2187420400F84E37 /* TimeProvider.swift */; };
-		CF970BC62187420700F84E37 /* LocalDIDsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BBB2187420400F84E37 /* LocalDIDsClient.swift */; };
-		CF970BC72187420700F84E37 /* DidOrderingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BBC2187420500F84E37 /* DidOrderingClient.swift */; };
-		CF970BC82187420700F84E37 /* DefaultHeadersRequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BBD2187420500F84E37 /* DefaultHeadersRequestInterceptor.swift */; };
-		CF970BC92187420700F84E37 /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BBE2187420500F84E37 /* ResultType.swift */; };
-		CF970BCA2187420700F84E37 /* VitelityApiAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BBF2187420500F84E37 /* VitelityApiAuthentication.swift */; };
-		CF970BCB2187420700F84E37 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BC02187420600F84E37 /* Parser.swift */; };
-		CF970BCC2187420700F84E37 /* VitelityAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BC12187420600F84E37 /* VitelityAPIClient.swift */; };
-		CF970BCD2187420700F84E37 /* LnpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BC22187420700F84E37 /* LnpClient.swift */; };
-		CF970BCE2187420700F84E37 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BC32187420700F84E37 /* Dictionary.swift */; };
-		CF970BD12187420A00F84E37 /* DIDsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BCF2187420A00F84E37 /* DIDsParser.swift */; };
-		CF970BD22187420A00F84E37 /* LnpParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BD02187420A00F84E37 /* LnpParser.swift */; };
-		CF970BDE2187421200F84E37 /* VMDidsDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BD32187420F00F84E37 /* VMDidsDTO.swift */; };
-		CF970BDF2187421200F84E37 /* DidDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BD42187420F00F84E37 /* DidDTO.swift */; };
-		CF970BE02187421200F84E37 /* StatesDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BD52187420F00F84E37 /* StatesDTO.swift */; };
-		CF970BE12187421200F84E37 /* CountryDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BD62187420F00F84E37 /* CountryDTO.swift */; };
-		CF970BE22187421200F84E37 /* AccountDidDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BD72187421000F84E37 /* AccountDidDTO.swift */; };
-		CF970BE32187421200F84E37 /* RateCenterDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BD82187421000F84E37 /* RateCenterDTO.swift */; };
-		CF970BE42187421200F84E37 /* DidNoteDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BD92187421000F84E37 /* DidNoteDTO.swift */; };
-		CF970BE52187421200F84E37 /* AddPortRespDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BDA2187421100F84E37 /* AddPortRespDTO.swift */; };
-		CF970BE62187421200F84E37 /* TollFreeDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BDB2187421200F84E37 /* TollFreeDTO.swift */; };
-		CF970BE72187421200F84E37 /* DidRateDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BDC2187421200F84E37 /* DidRateDTO.swift */; };
-		CF970BE82187421200F84E37 /* CnamDidDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BDD2187421200F84E37 /* CnamDidDTO.swift */; };
-		CF970BF22187421700F84E37 /* GetLocalDIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BE92187421500F84E37 /* GetLocalDIDs.swift */; };
-		CF970BF32187421700F84E37 /* GetTollFrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BEA2187421500F84E37 /* GetTollFrees.swift */; };
-		CF970BF42187421700F84E37 /* GetAccountDids.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BEB2187421600F84E37 /* GetAccountDids.swift */; };
-		CF970BF52187421700F84E37 /* GetCnamDids.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BEC2187421600F84E37 /* GetCnamDids.swift */; };
-		CF970BF62187421700F84E37 /* GetVMDids.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BED2187421600F84E37 /* GetVMDids.swift */; };
-		CF970BF72187421700F84E37 /* GetContries.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BEE2187421600F84E37 /* GetContries.swift */; };
-		CF970BF82187421700F84E37 /* GetStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BEF2187421600F84E37 /* GetStates.swift */; };
-		CF970BF92187421700F84E37 /* GetDidNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BF02187421700F84E37 /* GetDidNotes.swift */; };
-		CF970BFA2187421700F84E37 /* GetRateCenters.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BF12187421700F84E37 /* GetRateCenters.swift */; };
+		CF970C0221876A0F00F84E37 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970C0121876A0F00F84E37 /* Client.swift */; };
+		CF970C0421876B8600F84E37 /* VitelityAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970C0321876B8600F84E37 /* VitelityAPIClient.swift */; };
+		CF970C0821876E1E00F84E37 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970C0721876E1E00F84E37 /* ApiClient.swift */; };
+		CF970C0C2187701400F84E37 /* VitelityApiClientConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970C0B2187701400F84E37 /* VitelityApiClientConfig.swift */; };
+		CF970C0E2187707800F84E37 /* TimeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970C0D2187707800F84E37 /* TimeProvider.swift */; };
+		CF970C10218770A300F84E37 /* VitelityApiAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970C0F218770A300F84E37 /* VitelityApiAuthentication.swift */; };
+		CF970C1221877F5E00F84E37 /* DefaultHeadersRequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970C1121877F5E00F84E37 /* DefaultHeadersRequestInterceptor.swift */; };
+		CFE8C96A218791E700D5B260 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8C94E218791E200D5B260 /* Dictionary.swift */; };
+		CFE8C96B218791E700D5B260 /* LocalDIDsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8C94F218791E300D5B260 /* LocalDIDsClient.swift */; };
+		CFE8C96C218791E700D5B260 /* DidOrderingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8C950218791E300D5B260 /* DidOrderingClient.swift */; };
+		CFE8C96D218791E700D5B260 /* DIDsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8C951218791E300D5B260 /* DIDsParser.swift */; };
+		CFE8C96E218791E700D5B260 /* AccountDidDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8C952218791E300D5B260 /* AccountDidDTO.swift */; };
+		CFE8C96F218791E700D5B260 /* CountryDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8C953218791E300D5B260 /* CountryDTO.swift */; };
+		CFE8C970218791E700D5B260 /* DidRateDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8C954218791E300D5B260 /* DidRateDTO.swift */; };
+		CFE8C971218791E700D5B260 /* GetCnamDids.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8C955218791E300D5B260 /* GetCnamDids.swift */; };
+		CFE8C972218791E700D5B260 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8C956218791E400D5B260 /* Parser.swift */; };
+		CFE8C973218791E700D5B260 /* GetContries.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8C957218791E400D5B260 /* GetContries.swift */; };
+		CFE8C974218791E700D5B260 /* DidDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8C958218791E400D5B260 /* DidDTO.swift */; };
+		CFE8C975218791E700D5B260 /* GetTollFrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8C959218791E400D5B260 /* GetTollFrees.swift */; };
+		CFE8C976218791E700D5B260 /* VMDidsDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8C95A218791E400D5B260 /* VMDidsDTO.swift */; };
+		CFE8C977218791E700D5B260 /* GetVMDids.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8C95B218791E400D5B260 /* GetVMDids.swift */; };
+		CFE8C978218791E700D5B260 /* StatesDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8C95C218791E500D5B260 /* StatesDTO.swift */; };
+		CFE8C979218791E700D5B260 /* AddPortRespDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8C95D218791E500D5B260 /* AddPortRespDTO.swift */; };
+		CFE8C97A218791E700D5B260 /* GetRateCenters.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8C95E218791E500D5B260 /* GetRateCenters.swift */; };
+		CFE8C97B218791E700D5B260 /* GetStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8C95F218791E500D5B260 /* GetStates.swift */; };
+		CFE8C97C218791E700D5B260 /* GetAccountDids.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8C960218791E500D5B260 /* GetAccountDids.swift */; };
+		CFE8C97D218791E700D5B260 /* GetDidNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8C961218791E500D5B260 /* GetDidNotes.swift */; };
+		CFE8C97E218791E700D5B260 /* TollFreeDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8C962218791E600D5B260 /* TollFreeDTO.swift */; };
+		CFE8C97F218791E700D5B260 /* CnamDidDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8C963218791E600D5B260 /* CnamDidDTO.swift */; };
+		CFE8C980218791E700D5B260 /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8C964218791E600D5B260 /* ResultType.swift */; };
+		CFE8C981218791E700D5B260 /* RateCenterDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8C965218791E600D5B260 /* RateCenterDTO.swift */; };
+		CFE8C982218791E700D5B260 /* LnpParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8C966218791E700D5B260 /* LnpParser.swift */; };
+		CFE8C983218791E700D5B260 /* DidNoteDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8C967218791E700D5B260 /* DidNoteDTO.swift */; };
+		CFE8C984218791E700D5B260 /* LnpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8C968218791E700D5B260 /* LnpClient.swift */; };
+		CFE8C985218791E700D5B260 /* GetLocalDIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8C969218791E700D5B260 /* GetLocalDIDs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,39 +52,41 @@
 		CF970BAA2186298D00F84E37 /* VitelityApiFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VitelityApiFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF970BAD2186298D00F84E37 /* VitelityApiFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VitelityApiFramework.h; sourceTree = "<group>"; };
 		CF970BAE2186298D00F84E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF970BB92187420400F84E37 /* VitelityAPIClientConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VitelityAPIClientConfig.swift; sourceTree = "<group>"; };
-		CF970BBA2187420400F84E37 /* TimeProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeProvider.swift; sourceTree = "<group>"; };
-		CF970BBB2187420400F84E37 /* LocalDIDsClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalDIDsClient.swift; sourceTree = "<group>"; };
-		CF970BBC2187420500F84E37 /* DidOrderingClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DidOrderingClient.swift; sourceTree = "<group>"; };
-		CF970BBD2187420500F84E37 /* DefaultHeadersRequestInterceptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultHeadersRequestInterceptor.swift; sourceTree = "<group>"; };
-		CF970BBE2187420500F84E37 /* ResultType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultType.swift; sourceTree = "<group>"; };
-		CF970BBF2187420500F84E37 /* VitelityApiAuthentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VitelityApiAuthentication.swift; sourceTree = "<group>"; };
-		CF970BC02187420600F84E37 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
-		CF970BC12187420600F84E37 /* VitelityAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VitelityAPIClient.swift; path = ../../../../VitelityClient/VitelityClient/VitelityAPIClient.swift; sourceTree = "<group>"; };
-		CF970BC22187420700F84E37 /* LnpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LnpClient.swift; sourceTree = "<group>"; };
-		CF970BC32187420700F84E37 /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
-		CF970BCF2187420A00F84E37 /* DIDsParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIDsParser.swift; sourceTree = "<group>"; };
-		CF970BD02187420A00F84E37 /* LnpParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LnpParser.swift; sourceTree = "<group>"; };
-		CF970BD32187420F00F84E37 /* VMDidsDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VMDidsDTO.swift; sourceTree = "<group>"; };
-		CF970BD42187420F00F84E37 /* DidDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DidDTO.swift; sourceTree = "<group>"; };
-		CF970BD52187420F00F84E37 /* StatesDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatesDTO.swift; sourceTree = "<group>"; };
-		CF970BD62187420F00F84E37 /* CountryDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryDTO.swift; sourceTree = "<group>"; };
-		CF970BD72187421000F84E37 /* AccountDidDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountDidDTO.swift; sourceTree = "<group>"; };
-		CF970BD82187421000F84E37 /* RateCenterDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateCenterDTO.swift; sourceTree = "<group>"; };
-		CF970BD92187421000F84E37 /* DidNoteDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DidNoteDTO.swift; sourceTree = "<group>"; };
-		CF970BDA2187421100F84E37 /* AddPortRespDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPortRespDTO.swift; sourceTree = "<group>"; };
-		CF970BDB2187421200F84E37 /* TollFreeDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TollFreeDTO.swift; sourceTree = "<group>"; };
-		CF970BDC2187421200F84E37 /* DidRateDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DidRateDTO.swift; sourceTree = "<group>"; };
-		CF970BDD2187421200F84E37 /* CnamDidDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CnamDidDTO.swift; sourceTree = "<group>"; };
-		CF970BE92187421500F84E37 /* GetLocalDIDs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetLocalDIDs.swift; sourceTree = "<group>"; };
-		CF970BEA2187421500F84E37 /* GetTollFrees.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTollFrees.swift; sourceTree = "<group>"; };
-		CF970BEB2187421600F84E37 /* GetAccountDids.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAccountDids.swift; sourceTree = "<group>"; };
-		CF970BEC2187421600F84E37 /* GetCnamDids.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCnamDids.swift; sourceTree = "<group>"; };
-		CF970BED2187421600F84E37 /* GetVMDids.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetVMDids.swift; sourceTree = "<group>"; };
-		CF970BEE2187421600F84E37 /* GetContries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetContries.swift; sourceTree = "<group>"; };
-		CF970BEF2187421600F84E37 /* GetStates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetStates.swift; sourceTree = "<group>"; };
-		CF970BF02187421700F84E37 /* GetDidNotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetDidNotes.swift; sourceTree = "<group>"; };
-		CF970BF12187421700F84E37 /* GetRateCenters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetRateCenters.swift; sourceTree = "<group>"; };
+		CF970C0121876A0F00F84E37 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		CF970C0321876B8600F84E37 /* VitelityAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitelityAPIClient.swift; sourceTree = "<group>"; };
+		CF970C0721876E1E00F84E37 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		CF970C0B2187701400F84E37 /* VitelityApiClientConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitelityApiClientConfig.swift; sourceTree = "<group>"; };
+		CF970C0D2187707800F84E37 /* TimeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeProvider.swift; sourceTree = "<group>"; };
+		CF970C0F218770A300F84E37 /* VitelityApiAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitelityApiAuthentication.swift; sourceTree = "<group>"; };
+		CF970C1121877F5E00F84E37 /* DefaultHeadersRequestInterceptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultHeadersRequestInterceptor.swift; sourceTree = "<group>"; };
+		CFE8C94E218791E200D5B260 /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		CFE8C94F218791E300D5B260 /* LocalDIDsClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalDIDsClient.swift; sourceTree = "<group>"; };
+		CFE8C950218791E300D5B260 /* DidOrderingClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DidOrderingClient.swift; sourceTree = "<group>"; };
+		CFE8C951218791E300D5B260 /* DIDsParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIDsParser.swift; sourceTree = "<group>"; };
+		CFE8C952218791E300D5B260 /* AccountDidDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountDidDTO.swift; sourceTree = "<group>"; };
+		CFE8C953218791E300D5B260 /* CountryDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryDTO.swift; sourceTree = "<group>"; };
+		CFE8C954218791E300D5B260 /* DidRateDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DidRateDTO.swift; sourceTree = "<group>"; };
+		CFE8C955218791E300D5B260 /* GetCnamDids.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCnamDids.swift; sourceTree = "<group>"; };
+		CFE8C956218791E400D5B260 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		CFE8C957218791E400D5B260 /* GetContries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetContries.swift; sourceTree = "<group>"; };
+		CFE8C958218791E400D5B260 /* DidDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DidDTO.swift; sourceTree = "<group>"; };
+		CFE8C959218791E400D5B260 /* GetTollFrees.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTollFrees.swift; sourceTree = "<group>"; };
+		CFE8C95A218791E400D5B260 /* VMDidsDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VMDidsDTO.swift; sourceTree = "<group>"; };
+		CFE8C95B218791E400D5B260 /* GetVMDids.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetVMDids.swift; sourceTree = "<group>"; };
+		CFE8C95C218791E500D5B260 /* StatesDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatesDTO.swift; sourceTree = "<group>"; };
+		CFE8C95D218791E500D5B260 /* AddPortRespDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPortRespDTO.swift; sourceTree = "<group>"; };
+		CFE8C95E218791E500D5B260 /* GetRateCenters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetRateCenters.swift; sourceTree = "<group>"; };
+		CFE8C95F218791E500D5B260 /* GetStates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetStates.swift; sourceTree = "<group>"; };
+		CFE8C960218791E500D5B260 /* GetAccountDids.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAccountDids.swift; sourceTree = "<group>"; };
+		CFE8C961218791E500D5B260 /* GetDidNotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetDidNotes.swift; sourceTree = "<group>"; };
+		CFE8C962218791E600D5B260 /* TollFreeDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TollFreeDTO.swift; sourceTree = "<group>"; };
+		CFE8C963218791E600D5B260 /* CnamDidDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CnamDidDTO.swift; sourceTree = "<group>"; };
+		CFE8C964218791E600D5B260 /* ResultType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultType.swift; sourceTree = "<group>"; };
+		CFE8C965218791E600D5B260 /* RateCenterDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateCenterDTO.swift; sourceTree = "<group>"; };
+		CFE8C966218791E700D5B260 /* LnpParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LnpParser.swift; sourceTree = "<group>"; };
+		CFE8C967218791E700D5B260 /* DidNoteDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DidNoteDTO.swift; sourceTree = "<group>"; };
+		CFE8C968218791E700D5B260 /* LnpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LnpClient.swift; sourceTree = "<group>"; };
+		CFE8C969218791E700D5B260 /* GetLocalDIDs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetLocalDIDs.swift; sourceTree = "<group>"; };
 		DAE996EA21C50B849DC1CD62 /* Pods-VitelityApiFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VitelityApiFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VitelityApiFramework/Pods-VitelityApiFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,41 +132,43 @@
 		CF970BAC2186298D00F84E37 /* VitelityApiFramework */ = {
 			isa = PBXGroup;
 			children = (
-				CF970BEF2187421600F84E37 /* GetStates.swift */,
-				CF970BE92187421500F84E37 /* GetLocalDIDs.swift */,
-				CF970BF12187421700F84E37 /* GetRateCenters.swift */,
-				CF970BEA2187421500F84E37 /* GetTollFrees.swift */,
-				CF970BEB2187421600F84E37 /* GetAccountDids.swift */,
-				CF970BEE2187421600F84E37 /* GetContries.swift */,
-				CF970BEC2187421600F84E37 /* GetCnamDids.swift */,
-				CF970BED2187421600F84E37 /* GetVMDids.swift */,
-				CF970BF02187421700F84E37 /* GetDidNotes.swift */,
-				CF970BDB2187421200F84E37 /* TollFreeDTO.swift */,
-				CF970BD52187420F00F84E37 /* StatesDTO.swift */,
-				CF970BD82187421000F84E37 /* RateCenterDTO.swift */,
-				CF970BD42187420F00F84E37 /* DidDTO.swift */,
-				CF970BD72187421000F84E37 /* AccountDidDTO.swift */,
-				CF970BD62187420F00F84E37 /* CountryDTO.swift */,
-				CF970BDC2187421200F84E37 /* DidRateDTO.swift */,
-				CF970BDD2187421200F84E37 /* CnamDidDTO.swift */,
-				CF970BD32187420F00F84E37 /* VMDidsDTO.swift */,
-				CF970BD92187421000F84E37 /* DidNoteDTO.swift */,
-				CF970BDA2187421100F84E37 /* AddPortRespDTO.swift */,
-				CF970BCF2187420A00F84E37 /* DIDsParser.swift */,
-				CF970BD02187420A00F84E37 /* LnpParser.swift */,
-				CF970BBD2187420500F84E37 /* DefaultHeadersRequestInterceptor.swift */,
-				CF970BC32187420700F84E37 /* Dictionary.swift */,
-				CF970BBC2187420500F84E37 /* DidOrderingClient.swift */,
-				CF970BC22187420700F84E37 /* LnpClient.swift */,
-				CF970BBB2187420400F84E37 /* LocalDIDsClient.swift */,
-				CF970BC02187420600F84E37 /* Parser.swift */,
-				CF970BBE2187420500F84E37 /* ResultType.swift */,
-				CF970BBA2187420400F84E37 /* TimeProvider.swift */,
-				CF970BBF2187420500F84E37 /* VitelityApiAuthentication.swift */,
-				CF970BC12187420600F84E37 /* VitelityAPIClient.swift */,
-				CF970BB92187420400F84E37 /* VitelityAPIClientConfig.swift */,
 				CF970BAD2186298D00F84E37 /* VitelityApiFramework.h */,
 				CF970BAE2186298D00F84E37 /* Info.plist */,
+				CF970C0121876A0F00F84E37 /* Client.swift */,
+				CF970C1121877F5E00F84E37 /* DefaultHeadersRequestInterceptor.swift */,
+				CF970C0321876B8600F84E37 /* VitelityAPIClient.swift */,
+				CF970C0721876E1E00F84E37 /* ApiClient.swift */,
+				CF970C0B2187701400F84E37 /* VitelityApiClientConfig.swift */,
+				CF970C0D2187707800F84E37 /* TimeProvider.swift */,
+				CF970C0F218770A300F84E37 /* VitelityApiAuthentication.swift */,
+				CFE8C94E218791E200D5B260 /* Dictionary.swift */,
+				CFE8C964218791E600D5B260 /* ResultType.swift */,
+				CFE8C956218791E400D5B260 /* Parser.swift */,
+				CFE8C94F218791E300D5B260 /* LocalDIDsClient.swift */,
+				CFE8C950218791E300D5B260 /* DidOrderingClient.swift */,
+				CFE8C968218791E700D5B260 /* LnpClient.swift */,
+				CFE8C951218791E300D5B260 /* DIDsParser.swift */,
+				CFE8C966218791E700D5B260 /* LnpParser.swift */,
+				CFE8C962218791E600D5B260 /* TollFreeDTO.swift */,
+				CFE8C95C218791E500D5B260 /* StatesDTO.swift */,
+				CFE8C965218791E600D5B260 /* RateCenterDTO.swift */,
+				CFE8C958218791E400D5B260 /* DidDTO.swift */,
+				CFE8C952218791E300D5B260 /* AccountDidDTO.swift */,
+				CFE8C953218791E300D5B260 /* CountryDTO.swift */,
+				CFE8C954218791E300D5B260 /* DidRateDTO.swift */,
+				CFE8C963218791E600D5B260 /* CnamDidDTO.swift */,
+				CFE8C95A218791E400D5B260 /* VMDidsDTO.swift */,
+				CFE8C967218791E700D5B260 /* DidNoteDTO.swift */,
+				CFE8C95D218791E500D5B260 /* AddPortRespDTO.swift */,
+				CFE8C95F218791E500D5B260 /* GetStates.swift */,
+				CFE8C969218791E700D5B260 /* GetLocalDIDs.swift */,
+				CFE8C95E218791E500D5B260 /* GetRateCenters.swift */,
+				CFE8C959218791E400D5B260 /* GetTollFrees.swift */,
+				CFE8C960218791E500D5B260 /* GetAccountDids.swift */,
+				CFE8C957218791E400D5B260 /* GetContries.swift */,
+				CFE8C955218791E300D5B260 /* GetCnamDids.swift */,
+				CFE8C95B218791E400D5B260 /* GetVMDids.swift */,
+				CFE8C961218791E500D5B260 /* GetDidNotes.swift */,
 			);
 			path = VitelityApiFramework;
 			sourceTree = "<group>";
@@ -277,39 +283,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF970BE82187421200F84E37 /* CnamDidDTO.swift in Sources */,
-				CF970BF72187421700F84E37 /* GetContries.swift in Sources */,
-				CF970BE22187421200F84E37 /* AccountDidDTO.swift in Sources */,
-				CF970BF22187421700F84E37 /* GetLocalDIDs.swift in Sources */,
-				CF970BC92187420700F84E37 /* ResultType.swift in Sources */,
-				CF970BF42187421700F84E37 /* GetAccountDids.swift in Sources */,
-				CF970BC52187420700F84E37 /* TimeProvider.swift in Sources */,
-				CF970BCC2187420700F84E37 /* VitelityAPIClient.swift in Sources */,
-				CF970BDE2187421200F84E37 /* VMDidsDTO.swift in Sources */,
-				CF970BC72187420700F84E37 /* DidOrderingClient.swift in Sources */,
-				CF970BFA2187421700F84E37 /* GetRateCenters.swift in Sources */,
-				CF970BE72187421200F84E37 /* DidRateDTO.swift in Sources */,
-				CF970BCE2187420700F84E37 /* Dictionary.swift in Sources */,
-				CF970BE42187421200F84E37 /* DidNoteDTO.swift in Sources */,
-				CF970BF32187421700F84E37 /* GetTollFrees.swift in Sources */,
-				CF970BC62187420700F84E37 /* LocalDIDsClient.swift in Sources */,
-				CF970BF62187421700F84E37 /* GetVMDids.swift in Sources */,
-				CF970BE62187421200F84E37 /* TollFreeDTO.swift in Sources */,
-				CF970BE02187421200F84E37 /* StatesDTO.swift in Sources */,
-				CF970BE32187421200F84E37 /* RateCenterDTO.swift in Sources */,
-				CF970BD22187420A00F84E37 /* LnpParser.swift in Sources */,
-				CF970BCB2187420700F84E37 /* Parser.swift in Sources */,
-				CF970BC82187420700F84E37 /* DefaultHeadersRequestInterceptor.swift in Sources */,
-				CF970BCA2187420700F84E37 /* VitelityApiAuthentication.swift in Sources */,
-				CF970BCD2187420700F84E37 /* LnpClient.swift in Sources */,
-				CF970BF52187421700F84E37 /* GetCnamDids.swift in Sources */,
-				CF970BD12187420A00F84E37 /* DIDsParser.swift in Sources */,
-				CF970BE52187421200F84E37 /* AddPortRespDTO.swift in Sources */,
-				CF970BC42187420700F84E37 /* VitelityAPIClientConfig.swift in Sources */,
-				CF970BF92187421700F84E37 /* GetDidNotes.swift in Sources */,
-				CF970BE12187421200F84E37 /* CountryDTO.swift in Sources */,
-				CF970BF82187421700F84E37 /* GetStates.swift in Sources */,
-				CF970BDF2187421200F84E37 /* DidDTO.swift in Sources */,
+				CFE8C96D218791E700D5B260 /* DIDsParser.swift in Sources */,
+				CFE8C982218791E700D5B260 /* LnpParser.swift in Sources */,
+				CFE8C983218791E700D5B260 /* DidNoteDTO.swift in Sources */,
+				CFE8C975218791E700D5B260 /* GetTollFrees.swift in Sources */,
+				CF970C0221876A0F00F84E37 /* Client.swift in Sources */,
+				CFE8C96A218791E700D5B260 /* Dictionary.swift in Sources */,
+				CFE8C976218791E700D5B260 /* VMDidsDTO.swift in Sources */,
+				CFE8C96E218791E700D5B260 /* AccountDidDTO.swift in Sources */,
+				CFE8C972218791E700D5B260 /* Parser.swift in Sources */,
+				CFE8C979218791E700D5B260 /* AddPortRespDTO.swift in Sources */,
+				CFE8C971218791E700D5B260 /* GetCnamDids.swift in Sources */,
+				CFE8C96C218791E700D5B260 /* DidOrderingClient.swift in Sources */,
+				CFE8C980218791E700D5B260 /* ResultType.swift in Sources */,
+				CFE8C97C218791E700D5B260 /* GetAccountDids.swift in Sources */,
+				CFE8C97D218791E700D5B260 /* GetDidNotes.swift in Sources */,
+				CFE8C978218791E700D5B260 /* StatesDTO.swift in Sources */,
+				CFE8C981218791E700D5B260 /* RateCenterDTO.swift in Sources */,
+				CF970C0E2187707800F84E37 /* TimeProvider.swift in Sources */,
+				CFE8C985218791E700D5B260 /* GetLocalDIDs.swift in Sources */,
+				CF970C10218770A300F84E37 /* VitelityApiAuthentication.swift in Sources */,
+				CF970C0C2187701400F84E37 /* VitelityApiClientConfig.swift in Sources */,
+				CFE8C97B218791E700D5B260 /* GetStates.swift in Sources */,
+				CFE8C977218791E700D5B260 /* GetVMDids.swift in Sources */,
+				CFE8C973218791E700D5B260 /* GetContries.swift in Sources */,
+				CFE8C974218791E700D5B260 /* DidDTO.swift in Sources */,
+				CFE8C97F218791E700D5B260 /* CnamDidDTO.swift in Sources */,
+				CFE8C97E218791E700D5B260 /* TollFreeDTO.swift in Sources */,
+				CF970C1221877F5E00F84E37 /* DefaultHeadersRequestInterceptor.swift in Sources */,
+				CFE8C984218791E700D5B260 /* LnpClient.swift in Sources */,
+				CFE8C96B218791E700D5B260 /* LocalDIDsClient.swift in Sources */,
+				CFE8C96F218791E700D5B260 /* CountryDTO.swift in Sources */,
+				CFE8C970218791E700D5B260 /* DidRateDTO.swift in Sources */,
+				CF970C0421876B8600F84E37 /* VitelityAPIClient.swift in Sources */,
+				CF970C0821876E1E00F84E37 /* ApiClient.swift in Sources */,
+				CFE8C97A218791E700D5B260 /* GetRateCenters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

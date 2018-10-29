@@ -8,8 +8,9 @@ Pod::Spec.new do |s|
   s.author       = { "Jorge Dominguez" => "jorge@sigmatric.com" }
   s.platform     = :ios, "11.0"
   s.source       = { :git => "https://github.com/sigmatric/VitelityFramework.git", :tag => "#{s.version}" }
-  s.source_files  = "VitelityApiFramework","**/*.{h,m,swift}"
-  
+  #s.source_files  = "VitelityApiFramework","**/*.{h,m,swift}"
+  s.source_files = "Classes", "VitelityApiFramework/*.swift"
+    
   s.requires_arc = true
 
   s.dependency "BothamNetworking"
