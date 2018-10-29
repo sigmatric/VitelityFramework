@@ -7,15 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BD39AEE850D11CE91C2600A /* Pods_VitelityApiFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9730467F47CFE78174839F1A /* Pods_VitelityApiFramework.framework */; };
 		CF970BAF2186298D00F84E37 /* VitelityApiFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = CF970BAD2186298D00F84E37 /* VitelityApiFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF970BB62186299C00F84E37 /* VitelityApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BB52186299C00F84E37 /* VitelityApiClient.swift */; };
+		CF970BC42187420700F84E37 /* VitelityAPIClientConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BB92187420400F84E37 /* VitelityAPIClientConfig.swift */; };
+		CF970BC52187420700F84E37 /* TimeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BBA2187420400F84E37 /* TimeProvider.swift */; };
+		CF970BC62187420700F84E37 /* LocalDIDsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BBB2187420400F84E37 /* LocalDIDsClient.swift */; };
+		CF970BC72187420700F84E37 /* DidOrderingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BBC2187420500F84E37 /* DidOrderingClient.swift */; };
+		CF970BC82187420700F84E37 /* DefaultHeadersRequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BBD2187420500F84E37 /* DefaultHeadersRequestInterceptor.swift */; };
+		CF970BC92187420700F84E37 /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BBE2187420500F84E37 /* ResultType.swift */; };
+		CF970BCA2187420700F84E37 /* VitelityApiAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BBF2187420500F84E37 /* VitelityApiAuthentication.swift */; };
+		CF970BCB2187420700F84E37 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BC02187420600F84E37 /* Parser.swift */; };
+		CF970BCC2187420700F84E37 /* VitelityAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BC12187420600F84E37 /* VitelityAPIClient.swift */; };
+		CF970BCD2187420700F84E37 /* LnpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BC22187420700F84E37 /* LnpClient.swift */; };
+		CF970BCE2187420700F84E37 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BC32187420700F84E37 /* Dictionary.swift */; };
+		CF970BD12187420A00F84E37 /* DIDsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BCF2187420A00F84E37 /* DIDsParser.swift */; };
+		CF970BD22187420A00F84E37 /* LnpParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BD02187420A00F84E37 /* LnpParser.swift */; };
+		CF970BDE2187421200F84E37 /* VMDidsDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BD32187420F00F84E37 /* VMDidsDTO.swift */; };
+		CF970BDF2187421200F84E37 /* DidDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BD42187420F00F84E37 /* DidDTO.swift */; };
+		CF970BE02187421200F84E37 /* StatesDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BD52187420F00F84E37 /* StatesDTO.swift */; };
+		CF970BE12187421200F84E37 /* CountryDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BD62187420F00F84E37 /* CountryDTO.swift */; };
+		CF970BE22187421200F84E37 /* AccountDidDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BD72187421000F84E37 /* AccountDidDTO.swift */; };
+		CF970BE32187421200F84E37 /* RateCenterDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BD82187421000F84E37 /* RateCenterDTO.swift */; };
+		CF970BE42187421200F84E37 /* DidNoteDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BD92187421000F84E37 /* DidNoteDTO.swift */; };
+		CF970BE52187421200F84E37 /* AddPortRespDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BDA2187421100F84E37 /* AddPortRespDTO.swift */; };
+		CF970BE62187421200F84E37 /* TollFreeDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BDB2187421200F84E37 /* TollFreeDTO.swift */; };
+		CF970BE72187421200F84E37 /* DidRateDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BDC2187421200F84E37 /* DidRateDTO.swift */; };
+		CF970BE82187421200F84E37 /* CnamDidDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BDD2187421200F84E37 /* CnamDidDTO.swift */; };
+		CF970BF22187421700F84E37 /* GetLocalDIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BE92187421500F84E37 /* GetLocalDIDs.swift */; };
+		CF970BF32187421700F84E37 /* GetTollFrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BEA2187421500F84E37 /* GetTollFrees.swift */; };
+		CF970BF42187421700F84E37 /* GetAccountDids.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BEB2187421600F84E37 /* GetAccountDids.swift */; };
+		CF970BF52187421700F84E37 /* GetCnamDids.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BEC2187421600F84E37 /* GetCnamDids.swift */; };
+		CF970BF62187421700F84E37 /* GetVMDids.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BED2187421600F84E37 /* GetVMDids.swift */; };
+		CF970BF72187421700F84E37 /* GetContries.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BEE2187421600F84E37 /* GetContries.swift */; };
+		CF970BF82187421700F84E37 /* GetStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BEF2187421600F84E37 /* GetStates.swift */; };
+		CF970BF92187421700F84E37 /* GetDidNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BF02187421700F84E37 /* GetDidNotes.swift */; };
+		CF970BFA2187421700F84E37 /* GetRateCenters.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF970BF12187421700F84E37 /* GetRateCenters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5742D03FA4849F365500A7B3 /* Pods-VitelityApiFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VitelityApiFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-VitelityApiFramework/Pods-VitelityApiFramework.release.xcconfig"; sourceTree = "<group>"; };
+		9730467F47CFE78174839F1A /* Pods_VitelityApiFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VitelityApiFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF970BAA2186298D00F84E37 /* VitelityApiFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VitelityApiFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF970BAD2186298D00F84E37 /* VitelityApiFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VitelityApiFramework.h; sourceTree = "<group>"; };
 		CF970BAE2186298D00F84E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF970BB52186299C00F84E37 /* VitelityApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitelityApiClient.swift; sourceTree = "<group>"; };
+		CF970BB92187420400F84E37 /* VitelityAPIClientConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VitelityAPIClientConfig.swift; sourceTree = "<group>"; };
+		CF970BBA2187420400F84E37 /* TimeProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeProvider.swift; sourceTree = "<group>"; };
+		CF970BBB2187420400F84E37 /* LocalDIDsClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalDIDsClient.swift; sourceTree = "<group>"; };
+		CF970BBC2187420500F84E37 /* DidOrderingClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DidOrderingClient.swift; sourceTree = "<group>"; };
+		CF970BBD2187420500F84E37 /* DefaultHeadersRequestInterceptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultHeadersRequestInterceptor.swift; sourceTree = "<group>"; };
+		CF970BBE2187420500F84E37 /* ResultType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultType.swift; sourceTree = "<group>"; };
+		CF970BBF2187420500F84E37 /* VitelityApiAuthentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VitelityApiAuthentication.swift; sourceTree = "<group>"; };
+		CF970BC02187420600F84E37 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		CF970BC12187420600F84E37 /* VitelityAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VitelityAPIClient.swift; path = ../../../../VitelityClient/VitelityClient/VitelityAPIClient.swift; sourceTree = "<group>"; };
+		CF970BC22187420700F84E37 /* LnpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LnpClient.swift; sourceTree = "<group>"; };
+		CF970BC32187420700F84E37 /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		CF970BCF2187420A00F84E37 /* DIDsParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIDsParser.swift; sourceTree = "<group>"; };
+		CF970BD02187420A00F84E37 /* LnpParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LnpParser.swift; sourceTree = "<group>"; };
+		CF970BD32187420F00F84E37 /* VMDidsDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VMDidsDTO.swift; sourceTree = "<group>"; };
+		CF970BD42187420F00F84E37 /* DidDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DidDTO.swift; sourceTree = "<group>"; };
+		CF970BD52187420F00F84E37 /* StatesDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatesDTO.swift; sourceTree = "<group>"; };
+		CF970BD62187420F00F84E37 /* CountryDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryDTO.swift; sourceTree = "<group>"; };
+		CF970BD72187421000F84E37 /* AccountDidDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountDidDTO.swift; sourceTree = "<group>"; };
+		CF970BD82187421000F84E37 /* RateCenterDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateCenterDTO.swift; sourceTree = "<group>"; };
+		CF970BD92187421000F84E37 /* DidNoteDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DidNoteDTO.swift; sourceTree = "<group>"; };
+		CF970BDA2187421100F84E37 /* AddPortRespDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPortRespDTO.swift; sourceTree = "<group>"; };
+		CF970BDB2187421200F84E37 /* TollFreeDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TollFreeDTO.swift; sourceTree = "<group>"; };
+		CF970BDC2187421200F84E37 /* DidRateDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DidRateDTO.swift; sourceTree = "<group>"; };
+		CF970BDD2187421200F84E37 /* CnamDidDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CnamDidDTO.swift; sourceTree = "<group>"; };
+		CF970BE92187421500F84E37 /* GetLocalDIDs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetLocalDIDs.swift; sourceTree = "<group>"; };
+		CF970BEA2187421500F84E37 /* GetTollFrees.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTollFrees.swift; sourceTree = "<group>"; };
+		CF970BEB2187421600F84E37 /* GetAccountDids.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAccountDids.swift; sourceTree = "<group>"; };
+		CF970BEC2187421600F84E37 /* GetCnamDids.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCnamDids.swift; sourceTree = "<group>"; };
+		CF970BED2187421600F84E37 /* GetVMDids.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetVMDids.swift; sourceTree = "<group>"; };
+		CF970BEE2187421600F84E37 /* GetContries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetContries.swift; sourceTree = "<group>"; };
+		CF970BEF2187421600F84E37 /* GetStates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetStates.swift; sourceTree = "<group>"; };
+		CF970BF02187421700F84E37 /* GetDidNotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetDidNotes.swift; sourceTree = "<group>"; };
+		CF970BF12187421700F84E37 /* GetRateCenters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetRateCenters.swift; sourceTree = "<group>"; };
+		DAE996EA21C50B849DC1CD62 /* Pods-VitelityApiFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VitelityApiFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VitelityApiFramework/Pods-VitelityApiFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,17 +91,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BD39AEE850D11CE91C2600A /* Pods_VitelityApiFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B8A91CAC68A0154257DFF0A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAE996EA21C50B849DC1CD62 /* Pods-VitelityApiFramework.debug.xcconfig */,
+				5742D03FA4849F365500A7B3 /* Pods-VitelityApiFramework.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CF970BA02186298D00F84E37 = {
 			isa = PBXGroup;
 			children = (
 				CF970BAC2186298D00F84E37 /* VitelityApiFramework */,
 				CF970BAB2186298D00F84E37 /* Products */,
+				B8A91CAC68A0154257DFF0A8 /* Pods */,
+				D70B7836164DC90FFF62D826 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -48,11 +128,51 @@
 		CF970BAC2186298D00F84E37 /* VitelityApiFramework */ = {
 			isa = PBXGroup;
 			children = (
+				CF970BEF2187421600F84E37 /* GetStates.swift */,
+				CF970BE92187421500F84E37 /* GetLocalDIDs.swift */,
+				CF970BF12187421700F84E37 /* GetRateCenters.swift */,
+				CF970BEA2187421500F84E37 /* GetTollFrees.swift */,
+				CF970BEB2187421600F84E37 /* GetAccountDids.swift */,
+				CF970BEE2187421600F84E37 /* GetContries.swift */,
+				CF970BEC2187421600F84E37 /* GetCnamDids.swift */,
+				CF970BED2187421600F84E37 /* GetVMDids.swift */,
+				CF970BF02187421700F84E37 /* GetDidNotes.swift */,
+				CF970BDB2187421200F84E37 /* TollFreeDTO.swift */,
+				CF970BD52187420F00F84E37 /* StatesDTO.swift */,
+				CF970BD82187421000F84E37 /* RateCenterDTO.swift */,
+				CF970BD42187420F00F84E37 /* DidDTO.swift */,
+				CF970BD72187421000F84E37 /* AccountDidDTO.swift */,
+				CF970BD62187420F00F84E37 /* CountryDTO.swift */,
+				CF970BDC2187421200F84E37 /* DidRateDTO.swift */,
+				CF970BDD2187421200F84E37 /* CnamDidDTO.swift */,
+				CF970BD32187420F00F84E37 /* VMDidsDTO.swift */,
+				CF970BD92187421000F84E37 /* DidNoteDTO.swift */,
+				CF970BDA2187421100F84E37 /* AddPortRespDTO.swift */,
+				CF970BCF2187420A00F84E37 /* DIDsParser.swift */,
+				CF970BD02187420A00F84E37 /* LnpParser.swift */,
+				CF970BBD2187420500F84E37 /* DefaultHeadersRequestInterceptor.swift */,
+				CF970BC32187420700F84E37 /* Dictionary.swift */,
+				CF970BBC2187420500F84E37 /* DidOrderingClient.swift */,
+				CF970BC22187420700F84E37 /* LnpClient.swift */,
+				CF970BBB2187420400F84E37 /* LocalDIDsClient.swift */,
+				CF970BC02187420600F84E37 /* Parser.swift */,
+				CF970BBE2187420500F84E37 /* ResultType.swift */,
+				CF970BBA2187420400F84E37 /* TimeProvider.swift */,
+				CF970BBF2187420500F84E37 /* VitelityApiAuthentication.swift */,
+				CF970BC12187420600F84E37 /* VitelityAPIClient.swift */,
+				CF970BB92187420400F84E37 /* VitelityAPIClientConfig.swift */,
 				CF970BAD2186298D00F84E37 /* VitelityApiFramework.h */,
 				CF970BAE2186298D00F84E37 /* Info.plist */,
-				CF970BB52186299C00F84E37 /* VitelityApiClient.swift */,
 			);
 			path = VitelityApiFramework;
+			sourceTree = "<group>";
+		};
+		D70B7836164DC90FFF62D826 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9730467F47CFE78174839F1A /* Pods_VitelityApiFramework.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -73,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF970BB22186298D00F84E37 /* Build configuration list for PBXNativeTarget "VitelityApiFramework" */;
 			buildPhases = (
+				46727EE07A03E9A8121DDD2D /* [CP] Check Pods Manifest.lock */,
 				CF970BA52186298D00F84E37 /* Sources */,
 				CF970BA62186298D00F84E37 /* Frameworks */,
 				CF970BA72186298D00F84E37 /* Headers */,
@@ -130,12 +251,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		46727EE07A03E9A8121DDD2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VitelityApiFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CF970BA52186298D00F84E37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF970BB62186299C00F84E37 /* VitelityApiClient.swift in Sources */,
+				CF970BE82187421200F84E37 /* CnamDidDTO.swift in Sources */,
+				CF970BF72187421700F84E37 /* GetContries.swift in Sources */,
+				CF970BE22187421200F84E37 /* AccountDidDTO.swift in Sources */,
+				CF970BF22187421700F84E37 /* GetLocalDIDs.swift in Sources */,
+				CF970BC92187420700F84E37 /* ResultType.swift in Sources */,
+				CF970BF42187421700F84E37 /* GetAccountDids.swift in Sources */,
+				CF970BC52187420700F84E37 /* TimeProvider.swift in Sources */,
+				CF970BCC2187420700F84E37 /* VitelityAPIClient.swift in Sources */,
+				CF970BDE2187421200F84E37 /* VMDidsDTO.swift in Sources */,
+				CF970BC72187420700F84E37 /* DidOrderingClient.swift in Sources */,
+				CF970BFA2187421700F84E37 /* GetRateCenters.swift in Sources */,
+				CF970BE72187421200F84E37 /* DidRateDTO.swift in Sources */,
+				CF970BCE2187420700F84E37 /* Dictionary.swift in Sources */,
+				CF970BE42187421200F84E37 /* DidNoteDTO.swift in Sources */,
+				CF970BF32187421700F84E37 /* GetTollFrees.swift in Sources */,
+				CF970BC62187420700F84E37 /* LocalDIDsClient.swift in Sources */,
+				CF970BF62187421700F84E37 /* GetVMDids.swift in Sources */,
+				CF970BE62187421200F84E37 /* TollFreeDTO.swift in Sources */,
+				CF970BE02187421200F84E37 /* StatesDTO.swift in Sources */,
+				CF970BE32187421200F84E37 /* RateCenterDTO.swift in Sources */,
+				CF970BD22187420A00F84E37 /* LnpParser.swift in Sources */,
+				CF970BCB2187420700F84E37 /* Parser.swift in Sources */,
+				CF970BC82187420700F84E37 /* DefaultHeadersRequestInterceptor.swift in Sources */,
+				CF970BCA2187420700F84E37 /* VitelityApiAuthentication.swift in Sources */,
+				CF970BCD2187420700F84E37 /* LnpClient.swift in Sources */,
+				CF970BF52187421700F84E37 /* GetCnamDids.swift in Sources */,
+				CF970BD12187420A00F84E37 /* DIDsParser.swift in Sources */,
+				CF970BE52187421200F84E37 /* AddPortRespDTO.swift in Sources */,
+				CF970BC42187420700F84E37 /* VitelityAPIClientConfig.swift in Sources */,
+				CF970BF92187421700F84E37 /* GetDidNotes.swift in Sources */,
+				CF970BE12187421200F84E37 /* CountryDTO.swift in Sources */,
+				CF970BF82187421700F84E37 /* GetStates.swift in Sources */,
+				CF970BDF2187421200F84E37 /* DidDTO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +431,7 @@
 		};
 		CF970BB32186298D00F84E37 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAE996EA21C50B849DC1CD62 /* Pods-VitelityApiFramework.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -280,6 +455,7 @@
 		};
 		CF970BB42186298D00F84E37 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5742D03FA4849F365500A7B3 /* Pods-VitelityApiFramework.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";

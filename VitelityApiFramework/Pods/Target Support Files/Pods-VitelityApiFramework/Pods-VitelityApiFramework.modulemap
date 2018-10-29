@@ -1,0 +1,6 @@
+framework module Pods_VitelityApiFramework {
+  umbrella header "Pods-VitelityApiFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
